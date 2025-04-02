@@ -14,5 +14,9 @@
   "type": "module",
   "workspaces": [
     "src/proyecto_icp_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/agent": "^2.3.0",
+    "@dfinity/principal": "^2.3.0"
+  }
 }

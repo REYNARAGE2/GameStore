@@ -2,7 +2,8 @@
   "canisters": {
     "proyecto_icp_backend": {
       "main": "src/proyecto_icp_backend/main.mo",
-      "type": "motoko"
+      "type": "motoko",
+      "CORS": ["http://localhost:3000"]
     },
     "proyecto_icp_frontend": {
       "dependencies": [
